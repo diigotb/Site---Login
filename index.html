@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, " width-initial=1.0">
+    <title>
+        Login-Rafacar
+    </title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <script src="./js/index.js" defer></script>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;1,400&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/b166fce8e2.js" crossorigin="anonymous" defer></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="./img/logo.png" alt="logo principal" width="1339" height="100">
+        </div>
+
+    </header>
+
+    <main>
+        <form>
+            <section class="inputs-container">
+                <input type="email" placeholder="example@gmail.com">
+
+                <div class="password-container">
+                    <input type="password" id="field-password" class="field-password" placeholder="******">
+                    <i class="fa-solid fa-eye" id="eye" onclick="showPassword()"></i>
+                    <i class="fa-solid fa-eye-slash" id="eye-slash" onclick="showPassword()"></i>
+                </div>
+
+                <section class="password-infos">
+                    <div class="custom-checkbox">
+                        <label class="label">
+                            <input type="checkbox">
+                            <span>Lembrar senha?</span>
+                        </label>
+                    </div>
+                    <div class="senha">
+                        <a href="#">Esqueceu a senha?</a>
+                    </div>
+                </section>
+                <button id="btn-login">Login</button>
+
+
+                <section class="links-container">
+                    <div class="text-acess">
+                        <span>ou faça login com:</span>
+                    </div>
+                    <aside>
+                        <a href="#"><img src="https://img.icons8.com/ios/50/000000/mysql-logo.png"></a>
+
+                    </aside>
+
+                </section>
+
+                <footer class="container-footer">
+                    <br>
+                    <hr>
+                    <span>Ainda não tem uma conta: <a href="#">Cadastre-se</a></span>
+                </footer>
+        </form>
+    </main>
+</body>
+
+</html>
